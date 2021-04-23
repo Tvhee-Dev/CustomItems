@@ -1,0 +1,46 @@
+name: ${project.name}
+main: me.tvhee.customitems.CustomItemsPlugin
+version: ${project.version}
+author: tvhee
+api-version: 1.13
+commands:
+    ci:
+        description: Show the plugin menu
+        usage: /<command>
+    ci help:
+        description: Shows the help menu
+        usage: /<command>
+    ci give:
+      description: Give an custom item to an player
+      usage: /<command>
+    ci resourcepack:
+      description: Enable or disable an resourcepack
+      usage: /<command>
+    ci vanilla-recipes:
+      description: Remove existing vanilla crafting recipes
+      usage: /<command>
+    ci reload:
+        description: Reload the plugin
+        usage: /<command>
+    ci menu:
+        description: Plugin menu
+        usage: /<command>
+    ci recipes:
+      description: See all the crafting recipes
+      usage: /<command>
+    ci update:
+      description: Check for updates
+      usage: /<command>
+permissions:
+  customitems.reload:
+    default: op
+  customitems.menu:
+    default: op
+  customitems.recipes:
+    default: op
+  customitems.give:
+    default: op
+  customitems.resourcepack:
+    default: op
+  customitems.vanilla-recipes:
+    default: op

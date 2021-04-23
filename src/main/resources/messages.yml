@@ -1,0 +1,102 @@
+messages:
+   plugin:
+      line1: '&3---------- &3CustomItems &3----------'
+      line2: '&2Version &aV%version%'
+      line3: '&aDo /ci help for a list of commands!'
+      line4: '&2Plugin made by'
+      line5: '&3------------------------------'
+   help:
+      line1: '&3---------- &3CustomItems &3----------'
+      line2: '&2/ci &aMain command'
+      line3: '&2/ci help &aHelp menu'
+      line4: '&2/ci give <item> [player] &aGive an player an custom item'
+      line5: '&2/ci resourcepack load <link> &aLoad an resource pack'
+      line6: '&2/ci resourcepack unload &aUnload an resource pack'
+      line7: '&2/ci recipes &aList of all items with crafting recipes'
+      line8: '&2/ci vanilla-recipes &aAll removed vanilla crafting recipes'
+      line9: '&2/ci menu &aOpen the menu'
+      line10: '&2/ci update &aCheck for updates'
+      line11: '&2/ci reload &aReload command'
+      line12: '&3------------------------------'
+   update:
+      deactivated: '&6Warning: &eUpdate checking is disabled!'
+      not-available: '&aThere is no update available, you are on the latest version!'
+      available: '&cThere is an update available! You are on version &e%version%&a, the newest version is &e%new-version%&a!'
+      available_2: '&eDownload here: https://www.spigotmc.org/resources/customitems.84434/'
+   kick:
+      resourcepack-unload: '&cSorry the resourcepack has to be unloaded! Please join the server again'
+   config:
+      no-int-elytra: '&4Config Error: &celytra-boosting is not an number (&eitem %item%&c)!'
+      no-int-damage: '&4Config Error: &cdamage-when-used is not an number (&eitem %item%&c)!'
+   command:
+      no-permission: '&4Error: &cYou don''t have permission!'
+      not-found: '&4Error: &cCommand not found, do &e/ci help &cfor the help menu!'
+      no-player: '&4Error: &cYou aren''t an player!'
+      player-not-found: '&4Error: &cPlayer &e%player% &cnot found!'
+   commands:
+      reload: '&aPlugin &eCustomItems &areloaded successfully!'
+      give: '&aSuccessfully given &e%item% &ato &e%player%&a!'
+      give-wrong: '&4Error: &cUsage: /ci give <item> [player]!'
+      resourcepack: '&aResourcepack successfully loaded!'
+      resourcepack-unload: '&cResourcepack successfully unloaded!'
+      resourcepack-wrong: '&4Error: &cUsage: /ci resoucepack load <link> or /ci resourcepack unload'
+      recipes-already-removed: '&4Error: &cAll recipes are already removed! Go to config.yml and set &e"remove-all-vanilla-recipes: false"&c!'
+   menu:
+      buttons:
+         pages:
+            next: '&aNext Page'
+            previous: '&cPrevious Page'
+            current: '&eCurrent Page: %page%'
+         close: '&4Close Menu'
+         ingredients: '&5Crafting %number%: '
+         edit-menu:
+            item-name: '&2Name: '
+            display-name: '&eDisplayname: '
+            id: '&6ID: '
+            lore: '&4Lore:'
+            durability: '&aDurability: '
+            change-main-material: '&dChange main material'
+            functions-menu: '&3Functions Menu'
+            remove-item: '&4Click to remove the item'
+         function-execution-menu:
+            set: '&fClick to set'
+         function-setter-menu:
+            function-on: '&eFunction on: '
+            crafting: '&bCrafting'
+            commandexecution: '&2CommandExecution'
+            elytraboosting: '&6ElytraBoosting'
+            enabled: '&aEnabled'
+            disabled: '&cDisabled'
+         main-menu:
+            create: '&2Create an new item'
+            duplicate: '&2Duplicate an existing item'
+         remove-recipes-menu:
+            remove: '&2Remove an new existing vanilla recipe'
+         recipes-menu:
+            name: '&2Name: '
+            result: '&cResult: '
+            remove: '&4Click to remove'
+      main-menu:
+         name: '&3CustomItemsMenu'
+      edit-menu:
+         name: '&3CustomItemsEditMenu'
+      crafting-menu:
+         name: '&3CustomItemsCraftingMenu'
+      type-in:
+         item-not-found: '&4Error: &cCan''t find item &e%item%&c! &cType "&4Exit&c" to cancel!'
+         itemname: '&aPlease type in the name of your new item! &cType "&4Exit&c" to cancel!'
+         name-not-correct: '&4Error: &cPlease type a name with only one word!'
+         new-itemname: '&aPlease type in the name of your NEW item! &cType "&4Exit&c" to cancel!'
+         old-itemname: '&aPlease type in the name of your EXISTING item! &cType "&4Exit&c" to cancel!'
+         new-material: '&aPlease type in the name of the material! &cType "&4Exit&c" to cancel!'
+         no-valid-material: '&4Error: &cMaterial &e%material% &cdoes not exist! &cType "&4Exit&c" to cancel!'
+         name-already-taken: '&4Error: &cName already taken! &cType "&4Exit&c" to cancel!'
+         id-already-taken: '&4Error: &cID already taken! &cType "&4Exit&c" to cancel!'
+         no-int-used: '&4Error: &cYou may only use a number!'
+         new-lore: '&aPlease type in your new lore! &cType &3"%n" &afor the next line! Type "false" to disable! Type "&4Exit&c" to cancel!'
+         new-id: '&aPlease type in your new itemID! &cType "&4Exit&c" to cancel!'
+         new-durability: '&aPlease type in your new durability! &cType "&4Exit&c" to cancel!'
+         item-removed: '&cItem successfully removed!'
+         new-command: '&aPlease type in your new command! &cType "&4Exit&c" to cancel!'
+         new-boost: '&aPlease type in your new amount of boost! &cType "&4Exit&c" to cancel!'
+         new-name: '&aPlease type in an new name for your recipe you want to remove! &cType "&4Exit&c" to cancel!'
